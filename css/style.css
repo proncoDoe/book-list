@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root{
+
+    --darkgray:#353a40;
+
+    --bgHpt:#806550;
+
+    --lightred: #f9433dcc;
+    --brightred: #f9423d;
+    --lightgreen: #5fbaa7;
+    --lightwhite: #f7f7f7;
+
+    --white:#fff;
+    
+--bootstrap:#0275d8;
+
+--bgBlack: #3111;
+
+--primary-color: #0275d8;
+
+--lightRed:  #f9433dcc;
+
+--bannerText:#ff6c76;
+
+--primaryBody: #ddd;
+
+--bootstrapDanger: #d9534f;
+
+--bootstrapSuccess: #5cb85c;
+
+}
+
+
+
+.success, .error{
+
+color: #fff;
+padding: 5px;
+margin: 5px 0  15px 0;
+border-radius: 5px;
+
+}
+
+
+
+.success{
+
+
+    background-color: var(--bootstrapSuccess);
+}
+
+.error{
+
+    background-color: var(--bootstrapDanger);
+}
+
+
+
+
+
+.delete{
+
+    display: inline-block;
+
+    font-size: 1.5rem;
+    color: var(--lightwhite);
+    background-color: var(--bootstrapDanger);
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+.delete:hover{
+    opacity: 0.9;
+    transition: 2s ease-in-out;
+    background-color: var(--bannerText);
+
+}

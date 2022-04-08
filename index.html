@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+  <head>
+    <title>Book| List</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" hre="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha512-TyUaMbYrKFZfQfp+9nQGOEt+vGu4nKzLk0KaV3nFifL3K8n7lzb8DayTzLOK0pNyzxGJzGRSw78e8xqJhURJ3Q==" crossorigin="anonymous" />
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <h1>Book List</h1>
+
+      <form id="book-form">
+
+        <div>
+
+            <label for="title">Book|Title</label>
+
+            <input type="text" id="title" class="u-full-width">
+
+        </div>
+
+
+        <div>
+
+            <label for="author">Author</label>
+
+            <input type="text" id="author" class="u-full-width">
+
+        </div>
+
+
+
+        <div>
+
+            <label for="isbn">ISBN</label>
+
+            <input type="text" id="isbn" class="u-full-width">
+
+        </div>
+
+
+        <div>
+
+            <input type="submit"  class="u-full-width">
+
+        </div>
+
+
+      </form>
+
+
+      <br>
+
+
+      <table class="u-full-width">
+
+        <thead>
+
+            <tr>
+
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th></th>
+            </tr>
+
+        </thead>
+
+        <tbody id="book-list">
+
+            <!-- get will come from javascript -->
+
+        </tbody>
+
+
+
+      </table>
+
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
